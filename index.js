@@ -16,3 +16,13 @@ function deepestChild(){
   }
   return node;
 }
+
+function increaseRankBy(n){
+  let rankedLists = querySelectorAll(".ranked-list")
+  for (let 1 = 0, i < ranked-list.length, i++){
+    let children = rankedLists[i].children
+    for(let a = 0, a < children.lenght, a++){
+      children[a].innerHTML = parseInt(children[a].innerHTML) + n;
+    }
+  }
+}
